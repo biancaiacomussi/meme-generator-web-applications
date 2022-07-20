@@ -1,38 +1,208 @@
-.App {
+/* Global */
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+.fixed-right-bottom {
+  float: right;
+  margin: 0 0.9rem 0.9rem 0;
+  border-radius: 50%;
+}
+
+.toast {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.col-icon {
+  width: 5rem;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Font family */
+.arial {
+  font-family: Arial;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.impact {
+  font-family: impact;
+  letter-spacing: 1px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.comicSans{
+  font-family: "Comic Sans MS", "Comic Sans";
 }
 
-.App-link {
-  color: #61dafb;
+/* bold text */
+.thick {
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.meme-text {
+  position: absolute; 
+  left: 0;
+  right: 0; 
+  margin-bottom: 0;  
+  font-size: 1.5rem; 
+  word-wrap: break-word;
+  line-height: normal;
+}
+
+.shadow-black {
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+
+.shadow-white {
+  text-shadow:2px 2px 0 #fff,
+  -2px -2px 0 #fff,
+  2px -2px 0 #fff,
+  -2px 2px 0 #fff,
+  0px 2px 0 #fff,
+  2px 0px 0 #fff,
+  0px -2px 0 #fff,
+  -2px 0px 0 #fff,
+  2px 2px 5px #fff;
+}
+
+
+ #text1-1 {
+   width: 30%;
+   top: 25%;
+   left: 75%;
+   transform: translate(-50%, -50%);
+ }
+
+ #text2-1 {
+  width: 30%;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#text1-2 {
+  width: 15%;
+  font-size: 1.2rem;
+  top: 22%;
+  left: 31.5%;
+  transform: translate(-50%, -50%);
+}
+
+#text2-2 {
+ width: 15%;
+ top: 22%;
+ left: 62%;
+ font-size: 1.2rem;
+ transform: translate(-50%, -50%);
+}
+
+#text3-2 {
+  width: 40%;
+  bottom: 20%;
+  left: 50%;
+  transform: rotate(-10deg) translate(-50%, -50%);
+  
+ }
+
+#text1-3 {
+  width: 45%;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+#text2-3 {
+  width: 45%;
+  top: 10%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#text1-4 {
+  width: 95%;
+  left: 50%;
+  top: 7%;
+  transform: translate(-50%, -50%);
+}
+
+#text2-4 {
+  width: 95%;
+  left:50%;
+  bottom: -2%;
+  transform: translate(-50%, -50%);
+}
+
+#text1-5 {
+  width: 95%;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text1-6 {
+  width: 97%;
+  bottom: -2.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text1-7 {
+  width: 20%;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#text2-7 {
+  width: 25%;
+  top: 60%;
+  left: 85%; 
+  transform: translate(-50%, -50%); 
+}
+
+#text3-7 {
+  width: 30%;
+ top: 70%;
+ left: 29%;
+ transform: translate(-50%, -50%);
+}
+
+#text1-8 {
+  width: 97%;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  visibility : hidden
+}
+
+#favcolor {
+  width: 3.5rem;
+  height: 3em;
+}
+
+.littleTemplate {
+  width: 6rem;
+  height: 4.5rem;
+  margin: 0.4rem;
+}
+
+.modal-w {
+  min-width: 60%;
 }
